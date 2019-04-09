@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\puresurface\documents\program\snake\snake\main.cpp(511): warning C4715: “movesnake”: 不是所有的控件路径都返回值
+c:\users\puresurface\documents\program\snake\snake\main.cpp(1090): warning C4715: “judgesnake”: 不是所有的控件路径都返回值
+  snake.vcxproj -> C:\Users\PureSurface\Documents\Program\snake\x64\Debug\snake.exe

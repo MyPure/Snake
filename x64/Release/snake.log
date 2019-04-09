@@ -1,0 +1,18 @@
+﻿  chooselevel.cpp
+  gameover.cpp
+  gamepause.cpp
+  initialinterface.cpp
+  main.cpp
+  mainmenu.cpp
+  option.cpp
+  rankinterface.cpp
+  sureexit.cpp
+  win.cpp
+  正在生成代码
+f:\c\visual studio 2017\snake\snake\main.cpp(1006): warning C4715: “judgesnake”: 不是所有的控件路径都返回值
+f:\c\visual studio 2017\snake\snake\main.cpp(498): warning C4715: “movesnake”: 不是所有的控件路径都返回值
+  26 of 54 functions (48.1%) were compiled, the rest were copied from previous compilation.
+    11 functions were new in current compilation
+    12 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  snake.vcxproj -> F:\C\Visual Studio 2017\snake\x64\Release\snake.exe

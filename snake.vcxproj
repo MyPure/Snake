@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{DFA27918-DA18-4AC8-8ED8-30E0D3F321BF}</ProjectGuid>
+    <RootNamespace>snake</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions)_CRT_SECURE_NO_WARNINGS </PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions)_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions)_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions)_CRT_SECURE_NO_WARNINGS </PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="chooselevel.cpp" />
+    <ClCompile Include="clearance.cpp" />
+    <ClCompile Include="gameover.cpp" />
+    <ClCompile Include="gamepause.cpp" />
+    <ClCompile Include="initialinterface.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainmenu.cpp" />
+    <ClCompile Include="option.cpp" />
+    <ClCompile Include="rankinterface.cpp" />
+    <ClCompile Include="sureexit.cpp" />
+    <ClCompile Include="win.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="snake.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="128.ico" />
+    <Image Include="icon1.ico" />
+    <Image Include="res\128.ico" />
+    <Image Include="res\head_a.jpg" />
+    <Image Include="res\head_b.jpg" />
+    <Image Include="res\icon.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon2.ico" />
+    <Image Include="res\icon3.ico" />
+    <Image Include="res\image\about_selected.jpg" />
+    <Image Include="res\image\about_unselected.jpg" />
+    <Image Include="res\image\achievements_selected.jpg" />
+    <Image Include="res\image\achievements_unselected.jpg" />
+    <Image Include="res\image\back_a.jpg" />
+    <Image Include="res\image\back_selected.jpg" />
+    <Image Include="res\image\back_unselected.jpg" />
+    <Image Include="res\image\blue_a.jpg" />
+    <Image Include="res\image\blue_b.jpg" />
+    <Image Include="res\image\blue_c.jpg" />
+    <Image Include="res\image\blue_d.jpg" />
+    <Image Include="res\image\bomb_a.jpg" />
+    <Image Include="res\image\bomb_b.jpg" />
+    <Image Include="res\image\btomenu_selected.jpg" />
+    <Image Include="res\image\btomenu_unselected.jpg" />
+    <Image Include="res\image\chaosui_a.jpg" />
+    <Image Include="res\image\chaosui_b.jpg" />
+    <Image Include="res\image\chooselevelbg.jpg" />
+    <Image Include="res\image\chooselevelbg_h.jpg" />
+    <Image Include="res\image\continuegame_selected.jpg" />
+    <Image Include="res\image\continuegame_unselected.jpg" />
+    <Image Include="res\image\continue_cantselected.jpg" />
+    <Image Include="res\image\continue_selected.jpg" />
+    <Image Include="res\image\continue_unselected.jpg" />
+    <Image Include="res\image\exit_selected.jpg" />
+    <Image Include="res\image\exit_unselected.jpg" />
+    <Image Include="res\image\freezeui_a.jpg" />
+    <Image Include="res\image\freezeui_b.jpg" />
+    <Image Include="res\image\gameover.jpg" />
+    <Image Include="res\image\green_a.jpg" />
+    <Image Include="res\image\green_b.jpg" />
+    <Image Include="res\image\green_c.jpg" />
+    <Image Include="res\image\green_d.jpg" />
+    <Image Include="res\image\head_a.jpg" />
+    <Image Include="res\image\head_b.jpg" />
+    <Image Include="res\image\icon.ico" />
+    <Image Include="res\image\invisibleui_a.jpg" />
+    <Image Include="res\image\invisibleui_b.jpg" />
+    <Image Include="res\image\level1bg.jpg" />
+    <Image Include="res\image\level1bg_h.jpg" />
+    <Image Include="res\image\level1_selected.jpg" />
+    <Image Include="res\image\level1_unselected.jpg" />
+    <Image Include="res\image\level2bg.jpg" />
+    <Image Include="res\image\level2bg_h.jpg" />
+    <Image Include="res\image\level2bg_h_s.jpg" />
+    <Image Include="res\image\level2bg_s.jpg" />
+    <Image Include="res\image\level2_cantselected.jpg" />
+    <Image Include="res\image\level2_selected.jpg" />
+    <Image Include="res\image\level2_unselected.jpg" />
+    <Image Include="res\image\level3_cantselected.jpg" />
+    <Image Include="res\image\level3_selected.jpg" />
+    <Image Include="res\image\level3_unselected.jpg" />
+    <Image Include="res\image\level4_cantselected.jpg" />
+    <Image Include="res\image\level4_selected.jpg" />
+    <Image Include="res\image\level4_unselected.jpg" />
+    <Image Include="res\image\menubg.jpg" />
+    <Image Include="res\image\menubg_h.jpg" />
+    <Image Include="res\image\no_selected.jpg" />
+    <Image Include="res\image\no_unselected.jpg" />
+    <Image Include="res\image\option.jpg" />
+    <Image Include="res\image\option_selected.jpg" />
+    <Image Include="res\image\option_unselected.jpg" />
+    <Image Include="res\image\pause_a.jpg" />
+    <Image Include="res\image\pause_b.jpg" />
+    <Image Include="res\image\poison_a.jpg" />
+    <Image Include="res\image\poison_b.jpg" />
+    <Image Include="res\image\progress_a.jpg" />
+    <Image Include="res\image\progress_b.jpg" />
+    <Image Include="res\image\rankbg.jpg" />
+    <Image Include="res\image\rank_a.jpg" />
+    <Image Include="res\image\rank_selected.jpg" />
+    <Image Include="res\image\rank_unselected.jpg" />
+    <Image Include="res\image\red_a.jpg" />
+    <Image Include="res\image\red_b.jpg" />
+    <Image Include="res\image\red_c.jpg" />
+    <Image Include="res\image\red_d.jpg" />
+    <Image Include="res\image\repelui_a.jpg" />
+    <Image Include="res\image\repelui_b.jpg" />
+    <Image Include="res\image\reset_selected.jpg" />
+    <Image Include="res\image\reset_unselected.jpg" />
+    <Image Include="res\image\restartgame_selected.jpg" />
+    <Image Include="res\image\restartgame_unselected.jpg" />
+    <Image Include="res\image\start.jpg" />
+    <Image Include="res\image\start_selected_a.jpg" />
+    <Image Include="res\image\start_selected_b.jpg" />
+    <Image Include="res\image\start_unselected_a.jpg" />
+    <Image Include="res\image\start_unselected_b.jpg" />
+    <Image Include="res\image\surereset.jpg" />
+    <Image Include="res\image\sure_b.jpg" />
+    <Image Include="res\image\uihead_a.jpg" />
+    <Image Include="res\image\UIhead_b.jpg" />
+    <Image Include="res\image\win.jpg" />
+    <Image Include="res\image\yes_selected.jpg" />
+    <Image Include="res\image\yes_unselected.jpg" />
+    <Image Include="res\level1bg.jpg" />
+    <Image Include="res\menubg.jpg" />
+    <Image Include="res\start.jpg" />
+    <Image Include="res\start_selected_a.jpg" />
+    <Image Include="res\start_selected_a.png" />
+    <Image Include="res\start_selected_b.jpg" />
+    <Image Include="res\start_unselected_a.jpg" />
+    <Image Include="res\start_unselected_b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\botton.wav" />
+    <Media Include="res\bottondown.wav" />
+    <Media Include="res\choose.wav" />
+    <Media Include="res\continue.wav" />
+    <Media Include="res\music\botton.wav" />
+    <Media Include="res\music\bottondown.wav" />
+    <Media Include="res\music\continue.wav" />
+    <Media Include="res\music\destroy.wav" />
+    <Media Include="res\music\gameover.wav" />
+    <Media Include="res\music\loadstage.wav" />
+    <Media Include="res\music\springbgm.wav" />
+    <Media Include="res\music\startgame.wav" />
+    <Media Include="res\music\win.wav" />
+    <Media Include="res\springbgm.wav" />
+    <Media Include="res\startgame.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\image\image1.bin" />
+    <None Include="res\image\image2.bin" />
+    <None Include="res\image\image4.bin" />
+    <None Include="res\image\image5.bin" />
+    <None Include="res\image\image6.bin" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

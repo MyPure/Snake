@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="initialinterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mainmenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rankinterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gamepause.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chooselevel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sureexit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="option.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gameover.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="win.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="clearance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="snake.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\start.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\start_selected_a.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\start_selected_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\start_selected_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\start_unselected_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\start_unselected_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\menubg.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\level1bg.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\head_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\head_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon3.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\128.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="128.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\start.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\start_selected_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\start_selected_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\start_unselected_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\start_unselected_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\menubg.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level1bg.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\head_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\head_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\rank_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\rank_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\rank_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\back_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\back_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\back_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\rankbg.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\btomenu_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\btomenu_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\continuegame_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\continuegame_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\pause_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\pause_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\restartgame_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\restartgame_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\chooselevelbg.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\continue_cantselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\continue_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\continue_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level1_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level1_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\menubg_h.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\achievements_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\achievements_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\exit_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\exit_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\reset_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\reset_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\no_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\no_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\sure_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\yes_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\yes_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\about_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\about_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\option.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\surereset.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\option_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\option_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\gameover.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\progress_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\progress_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\uihead_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\UIhead_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\win.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\red_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\red_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\red_c.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\green_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\green_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\green_c.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\blue_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\blue_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\blue_c.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\bomb_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\bomb_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\blue_d.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\green_d.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\red_d.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\poison_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\poison_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\freezeui_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\freezeui_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\chaosui_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\chaosui_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\repelui_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\repelui_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\chooselevelbg_h.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level2_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level2_cantselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level2_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level3_cantselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level3_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level3_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level4_selected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level4_unselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level4_cantselected.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level2bg_h.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level1bg_h.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level2bg.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level2bg_h_s.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\level2bg_s.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\invisibleui_a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\invisibleui_b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\choose.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\botton.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\bottondown.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\startgame.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\continue.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\springbgm.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\music\continue.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\music\botton.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\music\bottondown.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\music\startgame.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\music\springbgm.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\music\destroy.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\music\gameover.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\music\loadstage.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\music\win.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\image\image5.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\image\image6.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\image\image4.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\image\image1.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\image\image2.bin">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
